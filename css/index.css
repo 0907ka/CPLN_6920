@@ -1,0 +1,34 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+.map-container {
+  position: sticky;
+  top: 0;
+}
+
+.map {
+  height: 100vh;
+}
+
+.slide-section {
+  position: relative;
+  margin-top: -20rem;
+  pointer-events: none;
+}
+
+.slide {
+  border: 1px solid green;
+  margin-top: 0;
+  margin-bottom: 70vh;
+  margin-right: 2rem;
+  margin-left: auto;
+  width: 20rem;
+  padding: 1rem;
+  background-color: rgb(240 240 240);
+}
+
+.slide:last-child {
+  margin-bottom: 0;
+}
